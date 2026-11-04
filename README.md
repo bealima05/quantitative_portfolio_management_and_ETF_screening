@@ -36,6 +36,39 @@ The framework combines portfolio management strategies, statistical risk measure
 
 ## Project Structure
 
+The project is organized into seven Python modules, each responsible for a specific component of the quantitative investment framework.
+
+```text
+quantitative-portfolio-management/
+│
+├── main.py
+├── dataprep.py
+├── portfolio.py
+├── ex_ante.py
+├── ex_post.py
+├── monte_carlo.py
+├── etf.py
+│
+├── file2.xlsx
+├── README.md
+└── requirements.txt
+```
+
+| Module | Description |
+|---|---|
+| `main_fin.py` | Main script coordinating the execution of the different modules and analysis workflows. |
+| `dataprep.py` | Retrieves and processes financial market data, calculates returns and prepares the inputs required for portfolio analysis. |
+| `portfolio.py` | Implements portfolio construction strategies, asset allocation, rebalancing and portfolio tracking. |
+| `ex_ante.py` | Calculates prospective portfolio risk and performance metrics. |
+| `ex_post_pt2.py` | Evaluates realized portfolio performance and risk using historical data. |
+| `monte_carlo_last.py` | Performs Monte Carlo simulations to analyse potential portfolio outcomes and risk scenarios. |
+| `scd.py` | Implements ETF screening, eligibility filtering, scoring and ranking. |
+
+**Configuration file**
+
+- `file2.xlsx`: Excel workbook containing the ETF information and configuration parameters used by the framework.
+
+
 ## Methodology
 
 ## Requirements
