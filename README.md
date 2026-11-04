@@ -71,6 +71,32 @@ quantitative-portfolio-management/
 
 ## Methodology
 
+### Portfolio Management Strategies
+
+The framework implements five portfolio management strategies:
+
+- **Buy and Hold:** Maintains the initial portfolio allocation without systematic rebalancing.
+- **Naive Risk Parity:** Allocates capital according to the inverse volatility of each asset.
+- **Volatility Targeting:** Adjusts portfolio exposure to achieve a predefined volatility target.
+- **Calendar Rebalancing:** Rebalances portfolio weights at predefined time intervals.
+- **Drift Rebalancing:** Rebalances the portfolio when asset weights deviate beyond specified thresholds.
+
+### Risk and Performance Metrics
+
+The framework combines ex-ante and ex-post evaluation methods.
+
+- **Ex-ante analysis:** Estimates prospective risk and performance using expected returns and risk measures, including volatility, Sharpe ratio, beta, VaR and CVaR.
+- **Ex-post analysis:** Evaluates realized performance through historical returns, drawdowns, volatility, alpha, beta and tracking error.
+- **Risk contribution:** Examines the contribution of individual assets to overall portfolio risk using Marginal Contribution to Risk (MCR) and Component Contribution to Risk (CCR).
+
+### ETF Screening
+
+ETFs are evaluated through eligibility criteria and quantitative scoring. The screening process considers characteristics such as expense ratios, liquidity, tracking performance and risk-related indicators.
+
+### Monte Carlo Simulation
+
+Future portfolio outcomes are modelled using correlated Geometric Brownian Motion (GBM). The simulations are used to study potential NAV trajectories, drawdown depth and duration, recovery behaviour, and sensitivity to modelling assumptions.
+
 ## Requirements
 
 ## How to Run
