@@ -98,6 +98,13 @@ ETFs are evaluated through eligibility criteria and quantitative scoring. The sc
 Future portfolio outcomes are modelled using correlated Geometric Brownian Motion (GBM). The simulations are used to study potential NAV trajectories, drawdown depth and duration, recovery behaviour, and sensitivity to modelling assumptions.
 
 ## Requirements
+numpy
+pandas
+yfinance
+matplotlib
+scipy
+statsmodels
+openpyxl
 
 ## How to Run
 
