@@ -7,9 +7,9 @@ import matplotlib.pyplot as plt
 from dataprep import Data
 from portfolio import Portfolio
 from ex_ante import ExAnte
-from ex_post_pt2 import ExPost
-from scd import ETFScreener
-from monte_carlo_last import MonteCarlo
+from ex_post import ExPost
+from etf import ETFScreener
+from monte_carlo import MonteCarlo
 
 
 def main():
