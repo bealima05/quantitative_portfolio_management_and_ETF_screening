@@ -115,3 +115,33 @@ openpyxl
 The project was developed as a scientific and consultancy project at Instituto Superior Técnico, in collaboration with Dolat Capital.
 
 [Read the full research paper (PDF)](paper/quantitative_model_etf_portfolio_analysis.pdf)
+
+## Results and Visualizations
+
+### Monte Carlo Simulation
+
+The Monte Carlo framework uses correlated Geometric Brownian Motion (GBM) to simulate potential portfolio outcomes and assess portfolio risk.
+
+**Simulated vs. Realized Portfolio Performance**
+
+![Monte Carlo fan chart](results/monte_carlo/mc_fan_vs_realized.png)
+
+**Simulation Convergence**
+
+![Monte Carlo convergence](results/monte_carlo/mc_portfolio_convergence.png)
+
+**Maximum Drawdown Depth vs. Duration**
+
+![Drawdown depth vs duration](results/monte_carlo/mc_portfolio_depth_vs_duration.png)
+
+**Maximum Drawdown Distribution**
+
+![Maximum drawdown distribution](results/monte_carlo/mc_portfolio_mdd_distribution.png)
+
+**Sensitivity Analysis**
+
+![Monte Carlo sensitivity analysis](results/monte_carlo/mc_portfolio_sensitivity.png)
+
+**Portfolio vs. Individual Assets**
+
+![Portfolio vs individual assets](results/monte_carlo/mc_portfolio_vs_assets.png)
