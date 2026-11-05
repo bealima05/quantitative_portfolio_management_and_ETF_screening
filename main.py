@@ -17,20 +17,24 @@ def main():
     # SETTINGS
     # =========================================================================
     excel_file = "file2.xlsx"
-    output_file = "Dn_cr_vol21_reb21.xlsx"
-    bm_output_file = "Dn_cr_vol21_reb21_bm.xlsx"
 
+    # choose the name of the output file
+    output_file = "Dn_cr_vol21_reb21.xlsx" # portfolio constructed using your etfs
+    bm_output_file = "Dn_cr_vol21_reb21_bm.xlsx" # portfolio constructed using their benchamrks
+
+    # don't change
     etf_col = "etf"
     bm_col = "track"
     class_col = "class"
     rf_col = "risk free"
     
-    
+    # introduce the desired initial capital
     initial_capital = 10000
 
-    selected_profile = "DC 80"
+    # introduce the desired profile
+    selected_profile = "your_profile"
     
-    # "buy_hold" , "naive_risk_parity" , "volatility_targeting" , "calendar_rebalancing", "drift_rebalancing"
+    # choose the deisred method of construction: "buy_hold" , "naive_risk_parity" , "volatility_targeting" , "calendar_rebalancing", "drift_rebalancing"
     construction_method = "calendar_rebalancing"
 
     # If the portfolio is being created for the first time:
