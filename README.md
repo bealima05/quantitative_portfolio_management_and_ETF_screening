@@ -109,3 +109,9 @@ openpyxl
 ## How to Run
 
 ## Outputs
+
+## Research Paper
+
+The project was developed as a scientific and consultancy project at Instituto Superior Técnico, in collaboration with Dolat Capital.
+
+[Read the full research paper (PDF)](paper/quantitative-model-etf-portfolio-analysis.pdf)
