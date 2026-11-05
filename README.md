@@ -110,11 +110,38 @@ openpyxl
 
 ## How to Run
 
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/bealima05/quantitative-portfolio-management.git
+cd quantitative-portfolio-management
+```
+
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Configure the input data
+
+Ensure that `file2.xlsx` is available in the project root directory, as it contains the ETF information and configuration parameters required by the framework.
+
+### 4. Run the project
+
+Execute the main script:
+
+```bash
+python main.py
+```
+
+The framework will process the input data, perform the selected portfolio analyses and generate the corresponding outputs.
+
 ## Outputs
 
 ## Research Paper
 
-The project was developed as a scientific and consultancy project at Instituto Superior Técnico, in collaboration with Dolat Capital.
+The project was developed as a scientific and consultancy project at Instituto Superior Técnico, in collaboration with Dolat Capital Gestão Indexada.
 
 [Read the full research paper (PDF)](paper/quantitative_model_etf_portfolio_analysis.pdf)
 
