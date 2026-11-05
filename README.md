@@ -114,4 +114,4 @@ openpyxl
 
 The project was developed as a scientific and consultancy project at Instituto Superior Técnico, in collaboration with Dolat Capital.
 
-[Read the full research paper (PDF)](paper/quantitative-model-etf-portfolio-analysis.pdf)
+[Read the full research paper (PDF)](paper/quantitative_model_etf_portfolio_analysis.pdf)
