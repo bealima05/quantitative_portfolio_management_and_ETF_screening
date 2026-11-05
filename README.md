@@ -139,6 +139,31 @@ The framework will process the input data, perform the selected portfolio analys
 
 ## Outputs
 
+The framework generates several outputs to support portfolio evaluation and risk analysis.
+
+### Portfolio Analysis
+
+- Historical portfolio performance and Net Asset Value (NAV) evolution.
+- Portfolio allocation and rebalancing records.
+- Ex-ante and ex-post risk and performance metrics.
+- VaR and CVaR estimates.
+- Drawdown analysis and risk contribution measures.
+
+### ETF Screening
+
+- ETF eligibility and filtering results.
+- Quantitative scoring and ranking of selected ETFs.
+
+### Monte Carlo Simulation
+
+- Simulated portfolio NAV trajectories.
+- Maximum drawdown distributions.
+- Drawdown depth and duration analysis.
+- Sensitivity analysis under different modelling assumptions.
+- Comparison between simulated and realized portfolio performance.
+
+Selected Monte Carlo visualizations are presented in the [Results and Visualizations](#results-and-visualizations) section.
+
 ## Research Paper
 
 The project was developed as a scientific and consultancy project at Instituto Superior Técnico, in collaboration with Dolat Capital Gestão Indexada.
