@@ -6,7 +6,9 @@ A Python-based quantitative investment framework for portfolio construction, ris
 
 This project implements a quantitative investment framework designed to analyse ETFs, construct investment portfolios, evaluate portfolio risk and performance, and simulate potential future outcomes.
 
-The framework combines portfolio management strategies, statistical risk measures and stochastic modelling to support quantitative investment analysis.
+The framework combines financial data processing, quantitative investment strategies, portfolio risk assessment and Monte Carlo simulations to support quantitative investment analysis.
+
+The analysis uses historical market data to evaluate portfolio behaviour, compare investment strategies and investigate potential future risk scenarios.
 
 ## Main Features
 
