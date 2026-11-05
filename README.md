@@ -56,13 +56,13 @@ quantitative-portfolio-management/
 
 | Module | Description |
 |---|---|
-| `main_fin.py` | Main script coordinating the execution of the different modules and analysis workflows. |
+| `main.py` | Main script coordinating the execution of the different modules and analysis workflows. |
 | `dataprep.py` | Retrieves and processes financial market data, calculates returns and prepares the inputs required for portfolio analysis. |
 | `portfolio.py` | Implements portfolio construction strategies, asset allocation, rebalancing and portfolio tracking. |
 | `ex_ante.py` | Calculates prospective portfolio risk and performance metrics. |
-| `ex_post_pt2.py` | Evaluates realized portfolio performance and risk using historical data. |
-| `monte_carlo_last.py` | Performs Monte Carlo simulations to analyse potential portfolio outcomes and risk scenarios. |
-| `scd.py` | Implements ETF screening, eligibility filtering, scoring and ranking. |
+| `ex_post.py` | Evaluates realized portfolio performance and risk using historical data. |
+| `monte_carlo.py` | Performs Monte Carlo simulations to analyse potential portfolio outcomes and risk scenarios. |
+| `etf.py` | Implements ETF screening, eligibility filtering, scoring and ranking. |
 
 **Configuration file**
 
